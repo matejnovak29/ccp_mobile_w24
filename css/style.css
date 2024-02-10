@@ -37,8 +37,15 @@ h3 {
 }
 
 .skip_to_main_content {
-    visibility: hidden;
+    left: -999px;
     position: absolute;
+}
+
+.skip_to_main_content:focus {
+    font-size:24px;
+    position: fixed;
+    left: 50%;
+    background: white;
 }
 
 nav ul {

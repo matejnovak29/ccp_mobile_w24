@@ -93,7 +93,7 @@ ol li {
 
 @media (max-width: 440px) {
     body {
-        font-size: 20px;
+        font-size: 16px;
     }
     nav ul {
         flex-direction: column;
